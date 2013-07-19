@@ -9,9 +9,10 @@
             <field eval="1" name="priority"/>
             <field name="arch" type="xml">
                 <field name="state" position="after">
-                    <field name="partner_category_id"/>
+                    <field name="partner_category_id" invisible="1"/>
                 </field>
             </field>
         </record>
+
     </data>
 </openerp>

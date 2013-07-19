@@ -5,5 +5,5 @@ class sale_order(osv.osv):
     _inherit = 'sale.order'
 
     _columns = {     
-       'partner_category_id': fields.related('partner_id', 'category_id', type='many2many', relation="res.partner.category", string='Tags', readonly=True),
+       'partner_category_id': fields.related('partner_id', 'category_id', type='many2many', relation="res.partner.category", string='Tags', readonly=True, store=False),
     }
