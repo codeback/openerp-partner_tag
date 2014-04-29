@@ -20,7 +20,5 @@
 #
 ##############################################################################
 
-import account_invoice
-import sale
-import report
+import account_invoice_report
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
